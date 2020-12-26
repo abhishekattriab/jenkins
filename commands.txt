@@ -1,0 +1,5 @@
+docker-compose up -d : starting a service
+docker-compose start : starting already configured services
+docker-compose stop : stoping already configured service
+docker-compose restart : restarting already configured service
+aws s3 cp /tmp/db-dump.sql s3://aattri90-jenkins-mysql-backup/db-dump.sql
